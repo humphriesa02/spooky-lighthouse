@@ -61,16 +61,7 @@ public class Player_Movement : MonoBehaviour
 
         //Raycast; mean't for future use, nothing implemented
 
-        RaycastHit hit;
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 fwd = Camera.main.transform.TransformDirection(Vector3.forward);
-            if (Physics.Raycast(transform.position, fwd, out hit, 100))
-            {
-
-            }
-
-        }
+       
 
         //Movement
 
